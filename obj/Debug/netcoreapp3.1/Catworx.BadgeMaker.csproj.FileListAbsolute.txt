@@ -1,0 +1,13 @@
+C:\Users\Leo\documents\side-projects\c#\Catworx.BadgeMaker\bin\Debug\netcoreapp3.1\Catworx.BadgeMaker.exe
+C:\Users\Leo\documents\side-projects\c#\Catworx.BadgeMaker\bin\Debug\netcoreapp3.1\Catworx.BadgeMaker.deps.json
+C:\Users\Leo\documents\side-projects\c#\Catworx.BadgeMaker\bin\Debug\netcoreapp3.1\Catworx.BadgeMaker.runtimeconfig.json
+C:\Users\Leo\documents\side-projects\c#\Catworx.BadgeMaker\bin\Debug\netcoreapp3.1\Catworx.BadgeMaker.runtimeconfig.dev.json
+C:\Users\Leo\documents\side-projects\c#\Catworx.BadgeMaker\bin\Debug\netcoreapp3.1\Catworx.BadgeMaker.dll
+C:\Users\Leo\documents\side-projects\c#\Catworx.BadgeMaker\bin\Debug\netcoreapp3.1\Catworx.BadgeMaker.pdb
+C:\Users\Leo\documents\side-projects\c#\Catworx.BadgeMaker\obj\Debug\netcoreapp3.1\Catworx.BadgeMaker.csprojAssemblyReference.cache
+C:\Users\Leo\documents\side-projects\c#\Catworx.BadgeMaker\obj\Debug\netcoreapp3.1\Catworx.BadgeMaker.AssemblyInfoInputs.cache
+C:\Users\Leo\documents\side-projects\c#\Catworx.BadgeMaker\obj\Debug\netcoreapp3.1\Catworx.BadgeMaker.AssemblyInfo.cs
+C:\Users\Leo\documents\side-projects\c#\Catworx.BadgeMaker\obj\Debug\netcoreapp3.1\Catworx.BadgeMaker.csproj.CoreCompileInputs.cache
+C:\Users\Leo\documents\side-projects\c#\Catworx.BadgeMaker\obj\Debug\netcoreapp3.1\Catworx.BadgeMaker.dll
+C:\Users\Leo\documents\side-projects\c#\Catworx.BadgeMaker\obj\Debug\netcoreapp3.1\Catworx.BadgeMaker.pdb
+C:\Users\Leo\documents\side-projects\c#\Catworx.BadgeMaker\obj\Debug\netcoreapp3.1\Catworx.BadgeMaker.genruntimeconfig.cache
