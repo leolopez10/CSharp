@@ -7,6 +7,36 @@ namespace Catworx.BadgeMaker
     {
         static void Main(string[] args)
         {
+            //Init new list of employees
+            List<string> employees = new List<string>();
+
+            // Add new employees to current list
+            // employees.Add("barbara");
+            // employees.Add("billy");
+
+            // Create a while loop to take user input until complete
+            while (true)
+            {
+                Console.WriteLine("Please enter a name: (leave empty to exit)");
+
+                // Get a name from the console and assign it to a variable
+
+                string input = Console.ReadLine();
+
+                if (input == "")
+                {
+                    break;
+                }
+                employees.Add(input);
+            }
+
+            for (int i = 0; i < employees.Count; i++)
+            {
+                Console.WriteLine(employees[i]);
+            }
+
+
+            /*
             // Hello World
             Console.WriteLine("Hello World!");
 
@@ -27,7 +57,7 @@ namespace Catworx.BadgeMaker
             // Simple Math and variable change
             // ================================================
             Console.WriteLine("====================================== Simple Math ==============================");
-            /* Math is the same as JavaScript. % * + -, ++ -- += -= *= /= */
+            // Math is the same as JavaScript. % * + -, ++ -- += -= *= /=
 
             // Find the area of this circle
             int radius = 3;
@@ -126,9 +156,7 @@ namespace Catworx.BadgeMaker
             {
                 Console.WriteLine(inning);
             }
+            */
         }
-
-
-
     }
 }
