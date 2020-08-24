@@ -7,39 +7,59 @@ namespace Catworx.BadgeMaker
     {
         // PHASE 3
         // This is our employee-getting code
-        static List<string> GetEmployees()
+        static List<Employee> GetEmployees()
         {
-            List<string> employees = new List<string>();
+            List<Employee> employees = new List<Employee>();
 
             while (true)
             {
-                Console.WriteLine("Please enter a name: (leave empty to exit)");
+                Console.WriteLine("Please enter First Name: ");
 
-                string input = Console.ReadLine();
+                string firstName = Console.ReadLine();
 
-                if (input == "")
+                if (firstName == "")
                 {
                     break;
                 }
-                employees.Add(input);
+
+                Console.WriteLine("Please enter your Last Name: ");
+
+                string lastName = Console.ReadLine();
+
+                Console.WriteLine("Please enter Employee ID: ");
+
+                int id = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Please enter your avatar URL: ");
+
+                string photoUrl = Console.ReadLine();
+
+
+
+
+                // employees.Add(input);
+                // Create new employee instances
+                Employee currentEmployee = new Employee(firstName, lastName, id, photoUrl);
+
+                // employees.Add(currentEmployee.GetName());
+                employees.Add(currentEmployee);
             }
             return employees;
 
         }
 
-        static void printEmployees(List<string> employees)
+        static void printEmployees(List<Employee> employees)
         {
             for (int i = 0; i < employees.Count; i++)
             {
-
-                Console.WriteLine(employees[i]);
+                string template = "{0,-10}\t{1,-20}\t{2}";
+                Console.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetName(), employees[i].GetName(), employees[i].GetPhotoUrl()));
             }
         }
 
         static void Main(string[] args)
         {
-            List<string> employees = GetEmployees();
-            GetEmployees();
+            List<Employee> employees = GetEmployees();
             printEmployees(employees);
         }
     }
