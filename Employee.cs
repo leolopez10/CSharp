@@ -27,5 +27,10 @@ namespace Catworx.BadgeMaker
             return PhotoUrl;
         }
 
+        public string GetCompanyName()
+        {
+            return "leo-lopez Design";
+        }
+
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leo\\documents\\side-projects\\c#\\Catworx.BadgeMaker\\Catworx.BadgeMaker.csproj": {}
+    "C:\\Users\\Leo\\documents\\side-projects\\c#\\catworx.badgemaker\\Catworx.BadgeMaker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leo\\documents\\side-projects\\c#\\Catworx.BadgeMaker\\Catworx.BadgeMaker.csproj": {
+    "C:\\Users\\Leo\\documents\\side-projects\\c#\\catworx.badgemaker\\Catworx.BadgeMaker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leo\\documents\\side-projects\\c#\\Catworx.BadgeMaker\\Catworx.BadgeMaker.csproj",
+        "projectUniqueName": "C:\\Users\\Leo\\documents\\side-projects\\c#\\catworx.badgemaker\\Catworx.BadgeMaker.csproj",
         "projectName": "Catworx.BadgeMaker",
-        "projectPath": "C:\\Users\\Leo\\documents\\side-projects\\c#\\Catworx.BadgeMaker\\Catworx.BadgeMaker.csproj",
+        "projectPath": "C:\\Users\\Leo\\documents\\side-projects\\c#\\catworx.badgemaker\\Catworx.BadgeMaker.csproj",
         "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leo\\documents\\side-projects\\c#\\Catworx.BadgeMaker\\obj\\",
+        "outputPath": "C:\\Users\\Leo\\documents\\side-projects\\c#\\catworx.badgemaker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

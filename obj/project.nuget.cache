@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eUkdPAMoo1krUIYQCPDJ9ojgtR9cYMPmxzWQfF0NKygIMidiYby+od4x3imxs+XhSS12/PxbJZHo5xLIUZP6yA==",
+  "dgSpecHash": "jMKV92X+pGKzSbUkkdVTr2h9vVatQ9l0JXwLSCP5TkAcjCS/G6qU2Q/+ihbo+WCfg42Yu8Rl03+NlSSZXcaJmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leo\\documents\\side-projects\\c#\\Catworx.BadgeMaker\\Catworx.BadgeMaker.csproj",
+  "projectFilePath": "C:\\Users\\Leo\\documents\\side-projects\\c#\\catworx.badgemaker\\Catworx.BadgeMaker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Leo\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
