@@ -13,7 +13,7 @@ namespace Catworx.BadgeMaker
 
             while (true)
             {
-                Console.WriteLine("Please enter First Name: ");
+                Console.WriteLine("Please enter First Name: (Leave blank to exit)");
 
                 string firstName = Console.ReadLine();
 
@@ -40,27 +40,29 @@ namespace Catworx.BadgeMaker
                 // employees.Add(input);
                 // Create new employee instances
                 Employee currentEmployee = new Employee(firstName, lastName, id, photoUrl);
-
                 // employees.Add(currentEmployee.GetName());
                 employees.Add(currentEmployee);
+
             }
             return employees;
 
         }
 
-        static void printEmployees(List<Employee> employees)
-        {
-            for (int i = 0; i < employees.Count; i++)
-            {
-                string template = "{0,-10}\t{1,-20}\t{2}";
-                Console.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetName(), employees[i].GetName(), employees[i].GetPhotoUrl()));
-            }
-        }
+        // static void printEmployees(List<Employee> employees)
+        // {
+        //     for (int i = 0; i < employees.Count; i++)
+        //     {
+        //         string template = "{0,-10}\t{1,-20}\t{2}";
+        //         Console.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetName(), employees[i].GetPhotoUrl()));
+        //     }
+        // }
 
         static void Main(string[] args)
         {
             List<Employee> employees = GetEmployees();
-            printEmployees(employees);
+            Util.PrintEmployees(employees);
+            Util.MakeCSV(employees);
+            Util.MakeBadges(employees);
         }
     }
 }
